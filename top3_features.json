@@ -1,0 +1,17 @@
+[
+  {
+    "feature": "tug_seconds",
+    "meaning": "TUG test time (seconds)",
+    "lime_weight": 0.3637
+  },
+  {
+    "feature": "past_falls",
+    "meaning": "Number of past falls",
+    "lime_weight": 0.1366
+  },
+  {
+    "feature": "high_risk_medication",
+    "meaning": "Uses high-risk medication (0/1)",
+    "lime_weight": 0.1185
+  }
+]
