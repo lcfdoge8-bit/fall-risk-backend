@@ -111,7 +111,9 @@ class PatientData(BaseModel):
     polypharmacy_count: int = Field(..., ge=0, le=14)
     orthostatic_hypotension: int = Field(..., ge=0, le=1)
     tug_seconds: float = Field(..., ge=8.0, le=31.9)
-
+    days_since_last_fall: Optional[int] = Field(None, ge=0)
+    syncopal_fall: int = Field(0, ge=0, le=1)
+    fall_cluster_30d: int = Field(0, ge=0, le=1)
 
 app.add_middleware(
     CORSMiddleware,
