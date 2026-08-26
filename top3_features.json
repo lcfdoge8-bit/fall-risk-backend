@@ -1,0 +1,17 @@
+[
+  {
+    "feature": "high_risk_medication",
+    "meaning": "Uses high-risk medication (0/1)",
+    "weight": 1.4834
+  },
+  {
+    "feature": "past_falls",
+    "meaning": "Number of past falls",
+    "weight": 1.3641
+  },
+  {
+    "feature": "orthostatic_hypotension",
+    "meaning": "Dizzy when standing (0/1)",
+    "weight": 1.0672
+  }
+]
